@@ -1,15 +1,18 @@
 {
-  "name": "backend-zero",
+  "name": "backend-nodejs",
   "version": "1.0.0",
-  "description": "Backend nodeJS",
+  "description": "backend",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "dev": "node server.js"
   },
   "keywords": [
-    "nodejs"
+    "school"
   ],
   "author": "school",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
